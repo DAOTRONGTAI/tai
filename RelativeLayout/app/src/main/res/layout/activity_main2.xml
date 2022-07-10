@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    >
+
+    <TextView
+        android:id="@+id/v1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="TOP CONTENT HERE"
+        android:background="#ED0E42"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/v2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:text="SECOND"
+        android:background="#24ED0E"
+        android:layout_centerInParent="true"
+
+        />
+
+    <TextView
+        android:id="@+id/v3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="FIRST"
+        android:background="#0E58ED"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/v2"
+        />
+
+    <TextView
+        android:id="@+id/v4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="THREE"
+        android:background="#C63C11"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/v2"
+        />
+
+    <TextView
+        android:id="@+id/v5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="BOTTOM CONTENT HERE"
+        android:background="#AFAAA9"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>
